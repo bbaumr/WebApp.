@@ -1,0 +1,151 @@
+body {
+  font-family: "Indie Flower", sans-serif;
+  background-image: url(wallpapersden.com_small-memory_3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  padding-left: 45px;
+  padding-top: 15px;
+  margin: 0;
+}
+
+h2{
+  position: relative;
+  top: -80px;
+  padding-bottom: 5px;
+  font-weight:900;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto  ;
+}
+section {
+  border: 2px solid #fff;
+  padding: 10px;
+}
+
+section{
+  border: 2px solid white;
+  margin-bottom: 75px;
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.wrapper{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.login-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  flex-grow: 1;
+  min-height: 100%;
+
+}
+
+.login-form{
+  padding: 10px;
+}
+
+h1 a{
+  text-decoration: none;
+  color: inherit;
+}
+
+div a{
+  text-decoration: none;
+}
+
+button{
+  background-color:#333440;
+  border: 1px solid #333440;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 260px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.close-button{
+  display: flex;
+  place-content: end;
+}
+
+.close-icon{
+  font-weight: bold;
+  font-size: 20px;
+  max-width: max-content;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #333440;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+  position: relative;
+  top: -70px;
+  left: 40px;
+}
+
+.close-button a{
+  text-decoration: none;
+  color: inherit;
+}
+
+input{
+  border-color: transparent;
+  background-color: transparent;
+  border-bottom:2px solid #333440;
+  padding-right: 92px;
+  outline:none;
+}
+
+.inputbox{
+  padding-bottom: 10px;
+}
+
+input[type="email"]{
+  padding-bottom: 10px;
+}
+
+input[type="password"]{
+  padding-bottom: 10px;
+}
+
+input[type=checkbox]{
+  margin: 0;
+}
+
+div.inputbox{
+  padding-bottom: 20px;
+}
