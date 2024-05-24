@@ -1,42 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>G-Service Login</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datei-Upload und Anzeigen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="wrapper">
-    <h1><a href="home.html">G-Service</a></h1>
-    <div class="login-wrapper">
-      <section>
-        <div class="close-button"><a href="home.html">
-            <div class="close-icon">X
-          </a></div></a>
-    </div>
-    <div class="login-form">
-      <h2>Login</h2>
-      <div class="inputbox">
-        <input type="email" required placeholder="Email" />
-        <label>Icon</label>
-      </div>
-      <div class="inputbox">
-        <input type="password" required placeholder="Password" />
-        <label>Icon</label>
-      </div>
-      <div class="inputbox">
-        <input type="checkbox" />
-        <label for="checkbox">Remember me</label>
-        <a href="#">Forgot Password?</a>
-      </div>
-      <div class="inputbox">Don't have an account? <a href="register.html">Register</a></div>
-      <button class="inputbox" type="submit">Login</button>
-    </div>
-    </section>
-  </div>
-  </div>
-</body>
+<h1>Datei-Upload und Anzeigen</h1>
+<form id="uploadForm">
+    <input type="file" id="fileInput" required>
+    <button type="submit">Datei hochladen</button>
+</form>
+<h2>Hochgeladene Dateien:</h2>
+<ul id="fileList"></ul>
 
+<script src="app.js"></script>
+</body>
 </html>
